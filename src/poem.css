@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.poemPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.poemPage h5{
+    font-weight: 200;
+}
+.poemTextOuter{
+    padding: 7rem;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    margin: 2% 3%;
+    border-radius: 20px;
+    width: 70%;
+}
+.poemText{
+    font-size: 1.1rem;
+}
+.likePoem{
+    display: flex;
+}
+.likePoem > * {
+    margin: auto 5%;
+}

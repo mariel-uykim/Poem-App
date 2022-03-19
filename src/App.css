@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,500;0,700;1,400;1,700&family=Spectral:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700;1,800&display=swap');
+body{
+  background-color: #2C394B;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  position: relative;
+}
+.header{
+  background-color: #082032;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.logo{
+  max-width: 70px;
+  margin: 1% 3%;
+}
+.nav{
+  display: inline-block;
+  margin: 1% 3%;
+}
+.navLink{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 2vh 1vw;
+  margin: auto 2vw;
+}
+.navLink:hover{
+  padding: 0 1vw;
+  color: white;
+  border-bottom: 0.3rem solid #FF4C29;
+}
+.poemPrev > h5{
+  color: white;
+  font-weight: 200;
+  margin-left: 1.5%;
+  margin-top: 5%;
+}
+.content{
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+@media screen and (max-width: 600px){
+  .content{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+.footer p {
+  color: white;
+  padding: 50px 10px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+{
+    "poems":[
+        {"id": 0,
+        "title": "Campervan",
+        "author": "Bob Bobalooba",
+        "text": "__Lorem__ ipsum dolor sit amet,  \nconsectetur adipiscing elit,  \nsed do eiusmod tempor incididunt ut \nlabore et dolore magna aliqua.  ",
+        "votes": 3},
+        {"id": 1,
+        "title": "Nightfall",
+        "author": "Frank Chipasula",
+        "text": "In the sad hotel that drinks a swamp,\nYou breathe malarial air and enjoy\nFrog music piped in from the dismal swamp.\n\nBits of your life measured out in bars,\nYour thoughts gripped in clamps,\nYour lips pierced through\n\nWith fish-hooks, locked shut,\nSilenced over the stab of a clipped\nTongue that stabs the steel bar clutching\n\nThe teeth gnashed for dinner.\nYou dunk salt balls into the soup\nOf bitter tears raging through our land.",
+        "votes": 5},
+        {"id": 2,
+        "title": "Clouds",
+        "author": "Carolyn Forché",
+        "text": "A whip-poor-will brushed\nher wing along the ground\na moment ago, fifty years\nin the orchard where my father\nkept pear and plum,\na decade of peach trees\nand Antinovka’s apples",
+        "votes": 7},
+        {"id": 3,
+        "title": "Gone",
+        "author": "Rosé",
+        "text": "Another story that's sad and true\nI can feel the pain, can you?\nYou had to be the one to let me down\nTo colour me blue\nHate to see you with someone new\nI’ll put a curse on her and you\nAin’t no looking back, now you're dead and gone\nMy love is gone too",
+        "votes": 15}
+    ]
+}

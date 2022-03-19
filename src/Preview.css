@@ -1,0 +1,34 @@
+.poemCard{
+    background-color: rgb(12, 23, 73);
+    background: linear-gradient(140deg, #d53369 0%, #daae51 100%);
+    padding: 2%;
+    margin: 2% 3%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(59, 51, 51, 0.555);
+}
+.poemContent{
+    padding: 25px;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+.info{
+    margin: 5px 0;
+}
+.info h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.info h5{
+    font-weight: 300;
+    color:rgb(255, 220, 220);
+    text-align: center;
+}
+
+
